@@ -99,7 +99,7 @@
         'URL:https://rsg.edu.sa/RSMiskCity/',
         'item1.URL:https://sa.linkedin.com/in/abdulkareem-almesawi-assoc-cipdl5-shrm-63678b125',
         'item1.X-ABLabel:LinkedIn','END:VCARD'
-      ].join('\\n');
+      ].join('\n');
 
       const blob = new Blob([vcard], { type: 'text/vcard;charset=utf-8' });
       const url = URL.createObjectURL(blob);
@@ -112,4 +112,5 @@
     });
   </script>
 </body>
+
 </html>
